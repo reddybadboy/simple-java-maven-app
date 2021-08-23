@@ -65,5 +65,12 @@
         </executions>
       </plugin>
     </plugins>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-42-160.ap-south-1.compute.internal-releases</name>
+        <url>http://3.109.181.46:8081/artifactory/libs-release-local</url>
+    </repository>
+    </distributionManagement>
   </build>
 </project>
